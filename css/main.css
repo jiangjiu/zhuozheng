@@ -36,7 +36,20 @@
 
 body {
   margin: 0;
+  background-color: #f0f1f1;
+}
 
+ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -67,10 +80,290 @@ body {
 }
 
 .wrapper {
-  background-color: #f0f1f1;
+
 }
 
 .banner {
-  width: 6.4rem;
+  display: block;
+  background: url("../image/banner.jpg") no-repeat;
+  background-size: 100%;
+  width: 100%;
   height: 3.2rem;
+  font-size: 0;
+}
+
+.search {
+  position: relative;
+  width: 6.1rem;
+  height: .58rem;
+  margin: .25rem auto;
+  margin-bottom: .5rem;
+}
+
+#search {
+  width: 5.75rem;
+  height: .48rem;
+  display: inherit;
+  border-color: #fff;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  border-radius: .5rem;
+  font-size: .24rem;
+  padding-left: .25rem;
+}
+
+.search-icon {
+  background: url(../image/search.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: .2rem;
+  right: .2rem;
+  display: block;
+  height: .24rem;
+  width: .24rem;
+}
+
+/********************************************/
+.title {
+  position: relative;
+  height: .6rem;
+  border-left: 1px solid #006d83;
+  margin-left: .26rem;
+  padding-left: .26rem;
+}
+
+.title-ch {
+  font-size: .24rem;
+  color: #006d83;
+}
+
+.title-en {
+  font-size: .24rem;
+  color: #d2d2d2;
+}
+
+.title-line {
+  position: absolute;
+  top: .2rem;
+  right: 0;
+  height: .13rem;
+  width: 4.2rem;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.elite-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.elite-li {
+  flex: 1;
+  padding: 0 .2rem;
+}
+
+.elite-avatar {
+  height: 1.6rem;
+  width: 2.7rem;
+  margin-top: .45rem;
+}
+
+.elite-name {
+  font-size: .22rem;
+  color: #006d83;
+  margin-top: -.2rem;
+}
+
+.elite-position {
+  font-size: .16rem;
+  color: #666b6c;
+}
+
+.elite-more {
+  background: url("../image/more.png");
+  background-size: 100%;
+  width: 3.48rem;
+  height: .47rem;
+  display: block;
+  margin: .4rem auto .6rem;
+}
+
+.content {
+  background-color: #fff;
+  padding-bottom: .2rem;
+  padding-top: .25rem;
+}
+
+.content-banner {
+  width: 100%;
+  margin: .5rem 0;
+}
+
+.content-content {
+  font-size: .18rem;
+  color: #626262;
+  text-align: center;
+  padding: 0 .25rem;
+}
+
+.agency {
+  background-color: #006d83;
+  padding-bottom: .2rem;
+  padding-top: .25rem;
+}
+
+.agency-color {
+  color: #fff;
+}
+
+.agency-more {
+  background: url("../image/agency-more.png");
+  background-size: 100%;
+}
+
+.agency-title {
+  border-left: 1px solid #fff;
+}
+
+.agency-li {
+  display: flex;
+  padding: .2rem;
+}
+
+.agency-img {
+  flex: 1;
+  width: 2.55rem;
+  height: 1.95rem;
+
+}
+
+.agency-wrap {
+  flex: 1.2;
+  padding: 0 .2rem;
+}
+
+.agency-head {
+  font-size: .26rem;
+  color: #fff;
+}
+
+.agency-title2 {
+  color: #006d83;
+}
+
+.agency-content {
+  font-size: .2rem;
+  color: #fff;
+}
+
+.agency-content2 {
+  font-size: .2rem;
+  color: #5a5a5a;
+}
+
+.agency-li2 {
+  background-color: #ffffff;
+}
+
+.connect {
+  background-color: #2d719f;
+  padding-top: .7rem;
+  padding-bottom: .25rem;
+}
+
+.connect-input {
+  margin: 0 auto;
+  display: block;
+  width: 5.4rem;
+  height: .6rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+#name {
+  margin-top: .5rem;
+}
+
+.connect-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#connect {
+  margin-top: .4rem;
+}
+
+#message {
+  margin-top: .5rem;
+}
+
+.connect-btn {
+  display: block;
+  color: #fff;
+  width: 5.4rem;
+  height: .7rem;
+  border: 1px solid #fff;
+  border-radius: .7rem;
+  font-size: .3rem;
+  text-align: center;
+  line-height: .7rem;
+  margin: .7rem auto 0;
+}
+
+.footer {
+  padding: .7rem .4rem .3rem;
+  background-color: #006d83;
+}
+
+.footer-icon-li {
+  float: left;
+  padding: .05rem;
+}
+
+.weibo {
+  background: url("../image/weibo.png");
+}
+
+.wechat {
+  background: url("../image/wechat.png");
+}
+
+.at {
+  background: url("../image/at.png");
+}
+
+.facebook {
+  background: url("../image/facebook.png");
+}
+
+.footer-icon {
+  background-size: 100%;
+  display: block;
+  width: .71rem;
+  height: .71rem;
+}
+
+.footer-text-li a {
+  float: left;
+  font-size: .26rem;
+  color: #fff;
+  padding-left: .2rem;
+  padding-top: .5rem;
+}
+
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.copyright {
+  font-size: .22rem;
+  color: #fff;
+  line-height: .4rem;
+  padding-left: .2rem;
+  margin-top: .3rem;
+  
 }
