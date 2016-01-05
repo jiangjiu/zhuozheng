@@ -395,6 +395,7 @@ background-color: #f0f1f1;
 }
 .nav-ul {
   margin-top:1.6rem ;
+  border-top: 1px solid #054653;
 }
 
 .nav-li {
@@ -419,4 +420,49 @@ background-color: #f0f1f1;
 .nav-active a {
   color: #006d83;
   z-index: 0;
+}
+
+/**********关于************/
+.about-wrapper{
+  background-color: #fff;
+}
+.about-title {
+  margin:0 auto;
+  width:1.72rem;
+}
+.about-li {
+  text-align: center;
+  position: relative;
+}
+.about-banner {
+  width:6rem;
+}
+.about-more {
+  background: url("../image/about/about-more.png") no-repeat;
+  background-size: 100%;
+  display: block;
+  height:.35rem;
+  width:.88rem;
+  position: absolute;
+
+}
+.about-01a{
+  top: 2rem;
+  left: 0.8rem;
+}
+.about-02a {
+  top: 2.5rem;
+  left: 0.65rem;
+}
+.about-03a {
+  top: 2.2rem;
+  left: 2.7rem;
+}
+.about-04a {
+  top: 0.5rem;
+  left: 5.4rem;
+}
+.about-05a {
+  top: 2.3rem;
+  left: 1.1rem;
 }
