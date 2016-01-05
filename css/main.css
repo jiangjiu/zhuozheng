@@ -36,7 +36,7 @@
 
 body {
   margin: 0;
-  background-color: #f0f1f1;
+  background-color: #006d83;
 }
 
 ul, li, p {
@@ -52,6 +52,15 @@ a {
   text-decoration: none;
 }
 
+/****************首页****************/
+.container {
+  box-shadow: -1px 0 9px #064350;
+  -webkit-transition: transform ease-out 400ms;
+  -moz-transition: transform ease-out 400ms;
+  -ms-transition: transform ease-out 400ms;
+  -o-transition: transform ease-out 400ms;
+  transition: transform ease-out 400ms;
+}
 .header {
   background-color: #006d83;
   height: .64rem;
@@ -68,19 +77,19 @@ a {
   margin: 0 auto;
 }
 
-.header-logo::before {
-  content: "";
+.header-nav {
   background-image: url(../image/nav.png);
   background-size: 100%;
-  position: relative;
+  float: left;
   display: block;
   height: .5rem;
   width: .5rem;
-  margin-left: -2.2rem;
+  margin-left: .2rem;
+  z-index: 2;
 }
 
 .wrapper {
-
+background-color: #f0f1f1;
 }
 
 .banner {
@@ -158,8 +167,8 @@ a {
 }
 
 .elite-li {
-  flex: 1;
-  padding: 0 .2rem;
+  width: 2.8rem;;
+  padding-left: .3rem;
 }
 
 .elite-avatar {
@@ -359,11 +368,55 @@ a {
   clear: both;
   visibility: hidden
 }
+
 .copyright {
   font-size: .22rem;
   color: #fff;
   line-height: .4rem;
   padding-left: .2rem;
   margin-top: .3rem;
-  
+
+}
+
+/***************导航*****************/
+.nav {
+  width: 4.12rem;
+  height: 10rem;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -4.12rem;
+  z-index: 0;
+  -webkit-transition: transform ease-out 400ms;
+  -moz-transition: transform ease-out 400ms;
+  -ms-transition: transform ease-out 400ms;
+  -o-transition: transform ease-out 400ms;
+  transition: transform ease-out 400ms;
+}
+.nav-ul {
+  margin-top:1.6rem ;
+}
+
+.nav-li {
+  font-size: .3rem;
+  padding-left: 1rem;
+  color: #fff;
+
+  border-bottom: 1px solid #054653;
+}
+.nav-li a{
+  display: block;
+  height:1.2rem;
+  font-size: .3rem;
+  color: #fff;
+  line-height: 1.2rem;
+}
+.nav-active {
+  background-color: #fff;
+  color: #006d83;
+  z-index: -1;
+}
+.nav-active a {
+  color: #006d83;
+  z-index: 0;
 }
