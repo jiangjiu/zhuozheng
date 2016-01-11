@@ -466,3 +466,11 @@ background-color: #f0f1f1;
   top: 2.3rem;
   left: 1.1rem;
 }
+/********list页****************/
+.list-wrapper {
+
+}
+.list-nav {
+  height:.74rem;
+  background-color: #f1f1f1;
+}
