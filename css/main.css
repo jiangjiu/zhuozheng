@@ -614,3 +614,36 @@ a {
   color: #878c92;
   font-size: .22rem;
 }
+
+/*************article页************/
+.article-wrapper {
+  background-color: #ffffff;
+
+}
+.article-head  p{
+  background-color: #006d83;
+  color: #fff;
+  font-size: .25rem;
+  line-height: .8rem;
+  height:.8rem;
+  text-align: center;
+}
+.article-head-back {
+  display: block;
+  float: left;
+  padding-left: .2rem;
+  width:.5rem;
+  height:.8rem;
+  font-size: .5rem;
+  color: #fff;
+}
+.article-banner {
+  width:100%;
+}
+.article-content {
+  font-size: .24rem;
+  color: #333333;
+  line-height: .45rem;
+  padding:.3rem;
+  padding-top: 0;
+}
