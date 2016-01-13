@@ -508,6 +508,9 @@ a {
   flex: 1;
   height: .72rem;
 }
+.list-nav div a {
+  text-align: center;
+}
 
 .list-company a {
   margin-left: 1.5rem;
@@ -525,6 +528,7 @@ a {
 }
 .list-li a {
   display: flex;
+
 }
 .list-li img {
   width:2.29rem;
@@ -551,4 +555,62 @@ a {
   height:.47rem;
   margin:0 auto;
   margin-top: .5rem;
+}
+
+/***************team页******************/
+.team-title {
+  margin:0 auto;
+  width:3rem;
+  margin-bottom: .2rem;
+}
+.team-title-top {
+  display: flex;
+  margin:.5rem;
+  margin-bottom: .2rem;
+}
+.team-title-top h1 {
+  color: #006d83;
+  font-size:.38rem;
+  margin:0 auto;
+  line-height: .4rem;
+  padding-right: .2rem;
+  border-right: 1px solid #626262;
+}
+.team-title-top p {
+  color: #626262;
+  font-size: .16rem;
+  margin:0 auto;
+  line-height: .4rem;
+}
+.team-title img {
+  display: block;
+  margin:0 auto ;
+  width:1.88rem;
+  height:.32rem;
+  
+}
+
+.team-li {
+  display: flex;
+}
+
+.team-li img {
+  display: block;
+  flex:1;
+  width:2.53rem;
+  height:1.96rem;
+  margin:.15rem;
+}
+.team-content-wrap {
+  margin:.15rem;
+}
+.team-li h1 {
+  color: #000;
+  font-size: .28rem;
+  margin:0;
+}
+.team-li p {
+  margin-top: .1rem;
+  color: #878c92;
+  font-size: .22rem;
 }
